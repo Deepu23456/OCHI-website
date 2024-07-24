@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+import '../font.css'
 
 function Marquee() {
   return (
@@ -9,7 +10,7 @@ function Marquee() {
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
-          className='text-[30vw] leading-none font-["Founders_Grotesk_X"] -mb-[10vw] uppercase font-semibold pt-[1vw] pr-20'
+          className='text-[30vw] leading-none font-custom  uppercase font-semibold pr-10'
         >
           we are ochi
         </motion.h1>
@@ -17,7 +18,7 @@ function Marquee() {
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
           transition={{ repeat: Infinity, ease: "linear", duration: 20 }}
-          className='text-[30vw] leading-none font-["Founders_Grotesk_X"] -mb-[10vw] uppercase font-semibold pt-[1vw] pr-20'
+          className='text-[30vw] leading-none font-custom  uppercase font-semibold pr-10'
         >
           we are ochi
         </motion.h1>

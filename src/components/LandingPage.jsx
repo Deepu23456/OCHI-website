@@ -38,7 +38,7 @@ function Landing({isOpen}) {
           }
         )}
         <div className="start flex items-center justify-between gap-2">
-          <div className="max-md:w-[30vw] max-md:h-[7vw] max-md:px-[0] max-md:ml-[5px] max-md:py-[0] max-md:flex max-md:items-center max-md:justify-center max-md:text-[3vw] px-5 py-2 border-[1.5px] border-zinc-500 rounded-full uppercase font-light text-md cursor-pointer">
+          <div className="max-md:w-[28vw] max-md:h-[7vw] max-md:px-[0] max-md:ml-[5px] max-md:py-[0] max-md:flex max-md:items-center max-md:justify-center max-md:text-[2.4vw] px-5 py-2 border-[1.5px] border-zinc-500 rounded-full uppercase font-light text-md cursor-pointer">
             start the project
           </div>
           <div className="max-md:px-[2vw] max-md:py-[2vw] max-md:text-[3vw] px-3 py-3 rounded-full border-[1.5px] border-zinc-500 rotate-45">

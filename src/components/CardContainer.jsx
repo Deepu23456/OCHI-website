@@ -6,7 +6,7 @@ import Card from "./Card";
 
 function CardContainer() {
   return (
-    <div className="sticky top-0 max-xl:static max-xl:h-[120vh] w-full bg-white max-md:p-4 px-20 py-10">
+    <div className="sticky top-0 max-xl:static max-xl:h-[120vh] max-md:h-[130vh] w-full bg-white max-md:p-4 px-20 py-10">
       <div className="card-container max-md:min-96 h-96 w-full max-xl:flex-wrap flex items-center">
         <div className="card-container-left max-xl:w-full  w-1/2 h-full p-3">
           <div className="card relative w-full h-full bg-[#004D43] rounded-lg flex items-center justify-center">
