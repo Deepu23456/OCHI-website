@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowUp } from "react-icons/fa";
+import '../font.css'
 
 function Landing({isOpen}) {
   return (
@@ -11,11 +12,11 @@ function Landing({isOpen}) {
             <div key={index} className="masker">
               <div className="w-fit flex items-end overflow-hidden">
                 {index === 1 && (
-                  <motion.div initial={{width: 0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="w-[9vw] h-[5.8vw] max-md:h-[12vw]  max-xl:h-[8vw] bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover relative max-md:-top-[4vw] -top-[0.8vw] mr-[1vw] rounded-md">
+                  <motion.div initial={{width: 0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}} className="w-[9vw] h-[5.8vw] max-md:h-[12vw] bg-[url('https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg')] bg-cover relative max-md:-top-[1vw] -top-[0.8vw] mr-[1vw] rounded-md">
                     {" "}
                   </motion.div>
                 )}
-                <h1 className="pt-[2vw] max-md:text-[18vw] max-md:leading-[15vw] max-xl:text-[12vw] max-xl:leading-[8vw] -mb-[1vw] font-['Founders_Grotesk_X'] font-medium uppercase text-[9vw] leading-[6vw]">
+                <h1 className={` max-md:text-[18vw] max-md:leading-[15vw] max-xl:text-[12vw] max-xl:leading-[8vw] font-custom font-medium uppercase text-[9vw] leading-[8vw] `}>
                   {item}
                 </h1>
               </div>

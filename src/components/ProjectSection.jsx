@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import EyesPart from "./EyesPart";
+import '../font.css'
 
 function ProjectSection() {
   const [rotate, setRotate] = useState(0);
@@ -23,7 +24,7 @@ function ProjectSection() {
       data-scroll-section
       className="sticky max-xl:static top-0 w-full max-xl:h-[70vh] h-screen bg-[#CDEA68] flex items-center justify-center"
     >
-      <h1 className='uppercase text-zinc-800 font-medium max-xl:text-[18vw] max-xl:w-[100%] text-[15vw] leading-[12vw] tracking-tight font-["Founders_Grotesk_X"] w-[70%] text-center'>
+      <h1 className='uppercase text-zinc-800 font-medium max-xl:text-[18vw] max-xl:w-[100%] text-[15vw] leading-[12vw] tracking-tight font-custom w-[70%] text-center'>
         ready <br /> to start <br /> the project
       </h1>
       <div data-scroll data-scroll-section data-scroll-speed="-.2" className="eyes absolute">

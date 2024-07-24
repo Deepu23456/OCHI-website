@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "FoundersGrotesk";
+  src: url("../public/fonts/FoundersGrotesk-Semibold.woff2") format("woff2"),
+    url("../public/fonts/FoundersGrotesk-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

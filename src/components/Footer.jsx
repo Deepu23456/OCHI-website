@@ -1,9 +1,10 @@
 import React from "react";
+import '../font.css'
 
 function Footer() {
   return (
     <div data-scroll data-scroll-speed=".001" className="z-20 w-full min-h-screen bg-zinc-900 max-xl:p-10 p-20 flex">
-      <div className='w-1/2 max-lg:h-[90vh] max-md:h-[80vh] h-[101vh] font-["Founders_Grotesk_X"] flex flex-col items-start justify-between'>
+      <div className='w-1/2 max-lg:h-[90vh] max-md:h-[80vh] h-[101vh] font-custom flex flex-col items-start justify-between'>
         <h1 className="text-[8vw] uppercase leading-[6vw] font-medium">
           eye- <br /> opening{" "}
         </h1>
@@ -39,7 +40,7 @@ function Footer() {
         </div>
       </div>
       <div className="w-1/2 h-full ">
-        <h1 className="text-[8vw] font-['Founders_Grotesk_X'] uppercase leading-[6vw] font-medium">
+        <h1 className="text-[8vw] font-custom uppercase leading-[6vw] font-medium">
           presentations
         </h1>
         <div className="dets max-xl:text-[2vw] max-md:text-[3.3vw] w-full py-5  text-[1.2vw]">
